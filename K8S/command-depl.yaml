@@ -17,7 +17,7 @@ spec:
                   image: edgarbrutyan21/commandservice:latest
 
 ---
-apiVerison: v1
+apiVersion: v1
 kind: Service
 metadata:
     name: command-clusterip-srv

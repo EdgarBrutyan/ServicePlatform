@@ -53,3 +53,9 @@ C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandSer
 C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandService\obj\Debug\net6.0\CommandService.pdb
 C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandService\obj\Debug\net6.0\CommandService.genruntimeconfig.cache
 C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandService\obj\Debug\net6.0\ref\CommandService.dll
+C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandService\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandService\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandService\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandService\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandService\bin\Debug\net6.0\Grpc.Net.Client.dll
+C:\Users\edgar\OneDrive\Desktop\Project\CommandService\CommandService\CommandService\bin\Debug\net6.0\Grpc.Net.Common.dll
