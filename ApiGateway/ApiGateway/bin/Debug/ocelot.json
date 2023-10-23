@@ -1,0 +1,53 @@
+{
+  "Routes": [
+    // Platform WEB API
+    {
+      "DownstreamPathTemplate": "/api/Platforms",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "platform-clusterip-srv",
+          "Port": 80
+        }
+      ],
+
+      "UpstreamPathTemplate": "/api/Platforms",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Platforms/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "platform-clusterip-srv",
+          "Port": 80
+        }
+      ],
+
+      "UpstreamPathTemplate": "/api/Platforms/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    }, 
+
+    // Command WEB API (Platforms Controller)
+
+    {
+      "DownstreamPathTemplate": "/api/c/Platforms",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "command-clusterip-srv",
+          "Port": 80
+        }
+      ],
+
+      "UpstreamPathTemplate": "/api/c/Platforms",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    }
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl" : "http://localhost:5" 
+  }
+
+}

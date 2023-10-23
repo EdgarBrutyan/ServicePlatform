@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  apigateway:
+    container_name: api_gateway
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+      - 8001:80
+    

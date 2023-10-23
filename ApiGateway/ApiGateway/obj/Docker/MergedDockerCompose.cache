@@ -1,0 +1,23 @@
+name: dockercompose16856558050926225389
+services:
+  apigateway:
+    build:
+      context: C:\Users\edgar\OneDrive\Desktop\Microservices\ApiGateway\ApiGateway
+      dockerfile: ApiGateway/Dockerfile
+    container_name: api_gateway
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apigateway
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8001"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose16856558050926225389_default
